@@ -1,0 +1,64 @@
+body {
+  margin: 0%;
+
+}
+label{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ant-input{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+#productEdit-page {
+  background: rgb(85, 187, 214);
+  background: linear-gradient(110deg,
+      rgba(85, 187, 214, 1) 0%,
+      rgba(239, 29, 253, 1) 84%);
+  height: fit-content;
+}
+
+
+.form-wrap-container {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+
+  .create-edit-form {
+    width: 40%;
+    padding: 40px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 3px #00000033;
+  }
+
+  .form-btn {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background: rgb(85, 187, 214);
+    background: linear-gradient(110deg,
+        rgba(85, 187, 214, 1) 0%,
+        rgba(239, 29, 253, 1) 84%);
+    color: white;
+    border-radius: 30px;
+    width: 40%;
+    &:disabled {
+      background: gray !important;
+     }
+  }
+
+  .form-btn:hover {
+    box-shadow: 0 1px 2px 1px #c2c0c033;
+  }
+
+  .btn-back-create {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+}
+

@@ -1,0 +1,83 @@
+body {
+  margin: 0%;
+}
+
+#loginPage {
+  background: rgb(85,187,214);
+background: linear-gradient(38deg, rgba(85,187,214,1) 0%, rgba(165,149,227,1) 70%, rgba(220,2,238,1) 100%);
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.login-container {
+  background-color: aliceblue;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 300px;
+  height: 600px;
+  box-shadow: 0 1px 2px 3px #00000033;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+
+  .login-heading {
+    width: 290px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .login-username-field {
+    width: 290px;
+    border-bottom: 1px solid;
+    border-radius: 0%;
+    padding: 7px;
+    opacity: 0.6;
+    margin-bottom: 30px;
+  }
+
+  .login-password-field {
+    width: 290px;
+    border-bottom: 1px solid;
+    border-radius: 0%;
+    padding: 7px;
+    opacity: 0.6;
+    margin-bottom: 5px;
+  }
+
+  .forgot-password {
+    width: fit-content;
+    margin-right: 10px;
+    float: right;
+    font-size: 10px;
+    opacity: 0.6;
+  }
+
+  .login-btn {
+    width: 290px;
+    border-radius: 50px;
+    background: rgb(85,187,214);
+    background: linear-gradient(38deg, rgba(85,187,214,1) 0%, rgba(165,149,227,1) 70%, rgba(220,2,238,1) 100%);
+    color: white;
+    margin-top: 30px;
+    border: none;
+    padding: 5px;
+    font-weight: 500;
+   font-family: unset;
+   &:disabled {
+    background: gray !important;
+   }
+  }
+  .logos{
+    text-align: center;
+    margin-top: 100px;
+    cursor: pointer;
+  }
+
+}
+@media screen {
+  
+}

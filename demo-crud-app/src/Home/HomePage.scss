@@ -1,0 +1,213 @@
+body {
+    margin: none;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+.sticky-header-container {
+    background-color: #ede7e7;
+    box-shadow: 0 1px 2px #00000033;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    cursor: pointer;
+
+    .header-logo {
+        width: 6%;
+    }
+
+    .user-profile {
+        float: right;
+        width: 40px;
+        border-radius: 50%;
+        cursor: pointer;
+        background-color: #ffffff;
+    }
+
+    .user-profile:hover {
+        background-color: rgba(188, 181, 181, 0.616);
+    }
+
+    .profile-name {
+        float: right;
+    }
+}
+
+.search-container {
+    background-color: #c5b8b8;
+    height: 4vh;
+    padding: 1%;
+    margin-top: 62px;
+    box-shadow: 0 1px 2px #00000033;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 98%;
+
+    .search-field {
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        text-align: center;
+        width: 25%;
+        height: 5vh;
+        border-color: #ffffff;
+        text-align: center;
+    }
+    .ant-btn{
+        float: right;
+        font-size: 14px;
+        height: 32px;
+        padding: 4px 15px;
+        border-radius: 6px;
+    }
+}
+
+.cards {
+    margin-top: 70px;
+    padding: 2%;
+
+    .product-img {
+        padding: 10px;
+        width: 200px;
+        cursor: pointer;
+        height: 200px;
+        margin-left: 25px;
+        margin-top: 10px;
+        transition: transform 0.1s;
+    }
+
+    .product-img:hover {
+        transform: scale(1.1);
+    }
+
+    .edit-btn {
+        background-color: #ffffff;
+        cursor: pointer;
+        border: none;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        color: #0080a5;
+        padding: 5px;
+        font-size: 14px;
+        display: inline-flex;
+    }
+
+    .delete-btn {
+        background-color: #ffffff;
+        cursor: pointer;
+        border: none;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+            "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+        color: #ea5959;
+        font-size: 14px;
+        display: inline-flex;
+    }
+
+    .product-title:hover {
+        text-decoration: underline;
+    }
+}
+
+.drawer {
+    .profile-img {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+    }
+
+    .info {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+            sans-serif;
+        color: red;
+        font-weight: 300;
+    }
+}
+
+@media screen and (min-width: 100px) and (max-width: 667px) {
+    .sticky-header-container {
+        .header-logo {
+            width: 20%;
+        }
+    }
+
+    .search-container {
+        height: 5vh;
+
+        .search-field {
+            width: fit-content;
+            height: 4vh;
+            margin-top: 3px;
+        }
+
+        .create-btn {
+            margin-right: 30px;
+            margin-top: 3px;
+        }
+    }
+}
+
+@media screen and (min-width: 465px) and (max-width: 660px) {
+    .sticky-header-container {
+        .header-logo {
+            width: 15%;
+        }
+    }
+
+    .search-container {
+        height: 5vh;
+
+        .search-field {
+            width: fit-content;
+            height: 4vh;
+            margin-top: 3px;
+        }
+
+        .create-btn {
+            margin-right: 30px;
+        
+        }
+    }
+}
+
+@media screen and (min-width: 660px) and (max-width: 880px) {
+    .sticky-header-container {
+        .header-logo {
+            width: 11%;
+        }
+    }
+
+    .search-container {
+        height: 5vh;
+
+        .search-field {
+            width: fit-content;
+            height: 4vh;
+            margin-top: 3px;
+        }
+
+        .create-btn {
+            margin-right: 30px;
+            margin-top: 2px;
+        }
+    }
+}
+
+// @media screen and (min-width: 992px) and (max-width: 1280px) {
+//     .sticky-header-container {
+//         width: 100%;
+//         .header-logo {
+//             width: 6%;
+//         }
+//     }
+
+//     .search-container {
+//         height: 5vh;
+
+//         .search-field {
+//             width: fit-content;
+//             height: 4vh;
+//             margin-top: 3px;
+//         }
+//     }
+// }
